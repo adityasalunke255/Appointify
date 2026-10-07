@@ -756,7 +756,7 @@ RULES:
           analysisPlan: {
             summaryPrompt: "Generate a brief, professional summary of the call. State clearly if the appointment is CONFIRMED or CANCELLED, and summarize their answer to the specific question in one sentence."
           },
-          serverUrl: "https://zippy-moonlit-fence.ngrok-free.dev/api/appointments/webhook/vapi?appointmentId=" + res.appointment.id
+          serverUrl: "https://appointify-xt84.onrender.com/api/appointments/webhook/vapi?appointmentId=" + res.appointment.id
         });
       }
     } catch(err) {
